@@ -34,27 +34,37 @@ points:
       columns:
         pinky:
           stagger: 0 ky
-          spread: kx
+          #spread: kx
+          spread: 18
+          rotate: 17
+          origin: [0, -ky]
           key:
             column_net: P20
         ring:
-          stagger: 0.7 ky
-          spread: kx
+          spread: 18
+          stagger: ky
+          rotate: -7
+          origin: [0, -ky]
           key:
             column_net: P19
         middle:
-          stagger: 0.2 ky
-          spread: kx
+          spread: 18
+          stagger: ky/3
+          rotate: -5
+          origin: [0, -ky]
           key:
             column_net: P18
         index:
-          stagger: -0.2 ky
-          spread: kx
+          spread: 18
+          stagger: -ky/3
+          rotate: -5
+          origin: [0, -ky]
           key:
             column_net: P15
         inner:
-          stagger: -0.1 ky
-          spread: kx
+          spread: 19
+          stagger: -ky/6
+          origin: [0, -ky]
           key:
             column_net: P14
       rows:
